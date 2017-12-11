@@ -1,0 +1,10 @@
+.printButton{
+	-fx-background-color: #26e284;
+}
+.closeButton{
+	-fx-background-color: #e2264e;
+}
+
+.errorButton{
+	-fx-background-color: #49022b;
+}

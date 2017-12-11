@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="865.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="304.0" prefWidth="645.0" styleClass="topAnchorPane" stylesheets="@../css/LogInPanel.css" />
+      <JFXButton fx:id="logInButton" buttonType="RAISED" layoutX="223.0" layoutY="671.0" onAction="#logInButtonClicked" prefHeight="61.0" prefWidth="200.0" styleClass="topAnchorPane" stylesheets="@../css/LogInPanel.css" text="Zaloguj" />
+      <JFXTextField fx:id="logInTextField" labelFloat="true" layoutX="197.0" layoutY="517.0" prefHeight="29.0" prefWidth="252.0" promptText="Login" />
+      <JFXTextField fx:id="passwordTextField" labelFloat="true" layoutX="197.0" layoutY="589.0" prefHeight="29.0" prefWidth="252.0" promptText="Hasło" />
+      <ImageView fitHeight="200.0" fitWidth="236.0" layoutX="223.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagies/lock-open-blue.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="440.0" layoutY="830.0" prefHeight="21.0" prefWidth="184.0" text="Autor: Michał Karkowski" />
+   </children>
+</AnchorPane>
