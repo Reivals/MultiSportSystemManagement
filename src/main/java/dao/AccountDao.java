@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.sun.media.jfxmedia.logging.Logger;
 
-import Model.Account;
+import model.Account;
 
 @Repository
 @Transactional

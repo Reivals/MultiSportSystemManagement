@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 // Singleton
 public class LoggedAccount {

@@ -1,4 +1,4 @@
-package com.multi.app;
+package app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,10 +16,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 @SpringBootApplication
-@ComponentScan({"controller","service","dao","javafx.stage.Stage"})
-@EntityScan( basePackages = {"Model"})
+@ComponentScan({"controller","service","dao"})
+@EntityScan( basePackages = {"model"})
 @Import({ SpringConfig.class})
-public class JavaFXandSpringBootTestApplication extends Application{
+public class Main extends Application{
 	
 	private ApplicationContext ctx;
 
@@ -29,7 +29,7 @@ public class JavaFXandSpringBootTestApplication extends Application{
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		ctx = SpringApplication.run(JavaFXandSpringBootTestApplication.class);
+		ctx = SpringApplication.run(Main.class);
 		ViewState stateView = ctx.getBean(ViewState.class);
 		stateView.displayLogInView();
 		Scene scene = new Scene(stateView.getCurrentState());

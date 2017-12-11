@@ -11,7 +11,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Component;
 
-import Model.Employee;
+import model.Employee;
 
 @Component
 @Transactional

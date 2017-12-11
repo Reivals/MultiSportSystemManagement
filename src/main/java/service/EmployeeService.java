@@ -7,8 +7,8 @@ import javax.persistence.PersistenceContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Model.Employee;
 import dao.EmployeeDao;
+import model.Employee;
 
 @Service
 public class EmployeeService {

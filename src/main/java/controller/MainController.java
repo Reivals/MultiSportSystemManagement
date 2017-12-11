@@ -12,11 +12,6 @@ import org.springframework.stereotype.Controller;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 
-import Model.DataFormation;
-import Model.Employee;
-import Model.LoggedAccount;
-import Model.Raport;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -34,6 +29,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
+import model.DataFormation;
+import model.Employee;
+import model.LoggedAccount;
+import model.Raport;
 import service.EmployeeService;
 
 
